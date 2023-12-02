@@ -1,0 +1,15 @@
+[package]
+name = "pane_grid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = {version = "0.10", features = ["lazy"]}
+iced_core = "0.10.0"
+iced_aw = {version = "0.7.0", features = ["icons", "tab_bar", "modal", "badge", "card"]}
+# iced = { git = "https://github.com/iced-rs/iced.git", branch = "master" }
+# iced_aw = { git = "https://github.com/iced-rs/iced_aw.git", branch = "main",  features = ["icons", "tab_bar", "modal", "badge", "card"]}
+
+serde = {version = "1.0.182", features = ["derive"] }
+serde_json = { version = "1.0.104", features = ["preserve_order"] }
+strum = { version = "0.25", features = ["derive"] }
